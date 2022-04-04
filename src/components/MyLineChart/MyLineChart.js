@@ -1,4 +1,5 @@
 import React from "react";
+import "./MyLineChart.css";
 import {
   CartesianGrid,
   Line,
@@ -49,7 +50,7 @@ const data = [
 
 const MyLineChart = () => {
   return (
-    <div>
+    <div className="line-chart">
       <h4>Month with sell</h4>
       <LineChart
         width={600}

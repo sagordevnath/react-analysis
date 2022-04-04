@@ -51,7 +51,7 @@ const Home = () => {
       </div>
       <Link to={"/reviews"}>
         {/* <button className="view-all-btn">View All Reviews</button> */}
-        <button class="btn btn-outline-info view-all-btn">
+        <button type="button" class="btn btn-outline-info view-all-btn">
           View All Reviews
         </button>
       </Link>
