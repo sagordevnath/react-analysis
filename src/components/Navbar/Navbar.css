@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(212, 252, 229);
+    background-color: rgb(53, 198, 255);
     border-bottom: 1px solid #dee2e6;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -8,15 +8,23 @@
     position: sticky;
     top: 0;
     width: 100%;
+    height: 80px;
     z-index: 1030;
 }
 .link {
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 20px;
-    color: black;
-    font-size: 17px; 
+    margin: 20px;    
+    font-size: 10px; 
 }
 
-.link:hover {
-    color: orange;
+.link:hover {    
+    background-color: rgb(119, 91, 245);
+    
+    border-radius: 5px;
+    color: rgb(0, 255, 85);
+    transition: 0.3s;
+    
+    
 }
+

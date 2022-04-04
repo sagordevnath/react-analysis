@@ -9,7 +9,7 @@ function CustomActiveLink({ children, to, ...props }) {
     <div>
       <Link
         style={{
-          color: match ? "orange" : "black",
+          color: match ? "white" : "black",
           fontSize: match ? "20px" : "17px",
         }}
         to={to}
