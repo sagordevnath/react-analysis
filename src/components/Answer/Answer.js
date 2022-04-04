@@ -48,8 +48,8 @@ const Answer = () => {
       <div className="answer3">
         <table class="table">
           <thead>
-            <tr>
-              <th scope="col">Number</th>
+            <tr className="text-center">
+              <th scope="col ">Number</th>
               <th scope="col">Inline</th>
               <th scope="col">Block</th>
               <th scope="col">Inline-Block</th>
@@ -58,20 +58,69 @@ const Answer = () => {
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>
+                Inline elements can begin within a line of the HTML element and
+                it never starts a new line for the HTML.
+              </td>
+              <td>
+                Blocks cannot begin within a line of the HTMl element and it
+                always starts the new line of the HTML.
+              </td>
+              <td>
+                An inline-block element is placed as an inline element (on the
+                same line as adjacent content), but it behaves as a block
+                element.
+              </td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>
+                The width is defined only till the tags of inline extends.
+              </td>
+              <td>
+                The width is more than inline and is extended till the parent
+                element extends.
+              </td>
+              <td>
+                Flows a element inline with the text, but allows width and
+                height to be specified.
+              </td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td colspan="2">Larry the Bird</td>
-              <td>@twitter</td>
+              <td>Inline elements can break among the lines.</td>
+              <td>Block elements cannot break among the lines.</td>
+              <td>Inline-block elements are similar to inline elements.</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>
+                Inline elements creat small structures and support mostly the
+                files with small structures.
+              </td>
+              <td>
+                Block elements creat large structures when compared with inline
+                elements and easily support large files.
+              </td>
+              <td>
+                Create specific block for each element under its section
+                maintain the structure of each element.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>
+                Inline elements are stored inside block elements and therefore
+                do not require any particular space.
+              </td>
+              <td>
+                Block elements use all the space in the parent or container and
+                hence there will not be any space left for others files.
+              </td>
+              <td>
+                Inline-block treats the element like other inline elements but
+                allows the use of block properties.
+              </td>
             </tr>
           </tbody>
         </table>
