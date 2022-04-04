@@ -1,25 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import CustomActiveLink from "../CustomActiveLink/CustomActiveLink";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Link className="link" to="/">
+      <CustomActiveLink className="link" to="/">
         HOME
-      </Link>
-      <Link className="link" to="/reviews">
+      </CustomActiveLink>
+      <CustomActiveLink className="link" to="/reviews">
         REVIEWS
-      </Link>
-      <Link className="link" to="/dashboard">
+      </CustomActiveLink>
+      <CustomActiveLink className="link" to="/dashboard">
         DASHBOARD
-      </Link>
-      <Link className="link" to="/blogs">
+      </CustomActiveLink>
+      <CustomActiveLink className="link" to="/blogs">
         BLOGS
-      </Link>
-      <Link className="link" to="/about">
+      </CustomActiveLink>
+      <CustomActiveLink className="link" to="/about">
         ABOUT
-      </Link>
+      </CustomActiveLink>
     </div>
   );
 };

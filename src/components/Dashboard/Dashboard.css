@@ -1,0 +1,6 @@
+.dashboard {
+    background-color: rgb(183, 231, 174);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
