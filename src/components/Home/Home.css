@@ -1,9 +1,17 @@
 .home-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     margin-top: 20px;
 }
 .home-container img {
     height: 400px;
     width: 300px;
+}
+.details-container {
+    width: 70%;
+}
+.image-container {
+    width: 30%;
+}
+.review-heading {
+    text-align: center;
 }

@@ -1,3 +1,15 @@
+.navbar {
+    background-color: rgb(212, 252, 229);
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
 .link {
     text-decoration: none;
     margin: 20px;
