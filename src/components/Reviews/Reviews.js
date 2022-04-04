@@ -1,10 +1,21 @@
 import React from "react";
+import useLanguageReviews from "../../hooks/useLanguageReviews";
+import Review from "../Review/Review";
+import "./Reviews.css";
 
-const Reviews = (props) => {
-  console.log(props);
+const Reviews = () => {
+  const [reviews] = useLanguageReviews();
+
   return (
     <div>
-      <h1>Reviews</h1>
+      <div>
+        <h1>Reviews</h1>
+      </div>
+      <div className="reviews-container">
+        {reviews.map((review) => (
+          <Review key={review.id} review={review}></Review>
+        ))}
+      </div>
     </div>
   );
 };

@@ -2,6 +2,7 @@ const useLanguageReviews = () => {
   const reviews = [
     {
       id: 1,
+      image: "https://tonmoyac.github.io/e-school/images/Photos/teacher.png",
       name: "Jhankar Mahbub",
       description:
         "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
@@ -9,6 +10,7 @@ const useLanguageReviews = () => {
     },
     {
       id: 2,
+      image: "https://tonmoyac.github.io/e-school/images/Photos/teacher.png",
       name: "Jhankar Mahbub",
       description:
         "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
@@ -16,6 +18,7 @@ const useLanguageReviews = () => {
     },
     {
       id: 3,
+      image: "https://tonmoyac.github.io/e-school/images/Photos/teacher.png",
       name: "Jhankar Mahbub",
       description:
         "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
@@ -23,6 +26,7 @@ const useLanguageReviews = () => {
     },
     {
       id: 4,
+      image: "https://tonmoyac.github.io/e-school/images/Photos/teacher.png",
       name: "Jhankar Mahbub",
       description:
         "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
@@ -30,6 +34,7 @@ const useLanguageReviews = () => {
     },
     {
       id: 5,
+      image: "https://tonmoyac.github.io/e-school/images/Photos/teacher.png",
       name: "Jhankar Mahbub",
       description:
         "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
@@ -37,6 +42,7 @@ const useLanguageReviews = () => {
     },
     {
       id: 6,
+      image: "https://tonmoyac.github.io/e-school/images/Photos/teacher.png",
       name: "Jhankar Mahbub",
       description:
         "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
