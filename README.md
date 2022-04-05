@@ -23,12 +23,12 @@ Bootstrap
 
 ### Usage
 
-Custom hook
-Create fake data
-Meaningful Components 
-Destructuring
-State
-Side Effect 
-Font awesome 
-Conditional rendering
-Create Custom Active Link
+* Custom hook
+* Create fake data
+* Meaningful Components 
+* Destructuring
+* State
+* Side Effect 
+* Font awesome 
+* Conditional rendering
+* Create Custom Active Link
