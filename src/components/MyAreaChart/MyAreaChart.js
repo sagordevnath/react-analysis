@@ -44,7 +44,7 @@ const data = [
 const MyAreaChart = () => {
   return (
     <div className="area-chart">
-      <h4 className="text-center">Month with sell</h4>
+      <h4 className="text-center mb-3 text-info">Month with sell</h4>
       <AreaChart width={600} height={300} data={data}>
         <Area dataKey="investment" fill="#8884d8" />
         <XAxis dataKey="month" />

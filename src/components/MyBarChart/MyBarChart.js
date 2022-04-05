@@ -44,7 +44,7 @@ const data = [
 const MyBarChart = () => {
   return (
     <div className="bar-chart">
-      <h4 className="text-center">Month with sell</h4>
+      <h4 className="text-center mb-3 text-info">Month with sell</h4>
       <BarChart width={600} height={300} data={data}>
         <Bar dataKey="investment" fill="#8884d8" />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />

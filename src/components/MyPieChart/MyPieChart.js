@@ -44,7 +44,7 @@ const data = [
 const MyPieChart = () => {
   return (
     <div className="pie-chart">
-      <h4 className="text-center">Month with sell</h4>
+      <h4 className="text-center mb-3 text-info">Month with sell</h4>
       <PieChart width={800} height={500}>
         <Pie
           dataKey="investment"

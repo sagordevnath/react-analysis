@@ -51,7 +51,7 @@ const data = [
 const MyLineChart = () => {
   return (
     <div className="line-chart">
-      <h4 className="text-center">Month with sell</h4>
+      <h4 className="text-center mb-3 text-info">Month with sell</h4>
       <LineChart
         width={600}
         height={300}
