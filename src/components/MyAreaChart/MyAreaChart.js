@@ -1,6 +1,6 @@
 import React from "react";
 import "./MyAreaChart.css";
-import { XAxis, YAxis, Tooltip, AreaChart, Area } from "recharts";
+import { XAxis, YAxis, Tooltip, AreaChart, Area, CartesianGrid } from "recharts";
 
 const data = [
   {
@@ -44,10 +44,11 @@ const data = [
 const MyAreaChart = () => {
   return (
     <div className="area-chart">
-      <h4>Month with sell</h4>
+      <h4 className="text-center">Month with sell</h4>
       <AreaChart width={600} height={300} data={data}>
         <Area dataKey="investment" fill="#8884d8" />
         <XAxis dataKey="month" />
+        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
         <YAxis />
         <Tooltip></Tooltip>
       </AreaChart>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./MyBarChart.css";
-import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 
 const data = [
   {
@@ -44,9 +44,10 @@ const data = [
 const MyBarChart = () => {
   return (
     <div className="bar-chart">
-      <h4>Month with sell</h4>
+      <h4 className="text-center">Month with sell</h4>
       <BarChart width={600} height={300} data={data}>
         <Bar dataKey="investment" fill="#8884d8" />
+        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip></Tooltip>

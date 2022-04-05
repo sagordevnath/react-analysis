@@ -9,9 +9,9 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <MyLineChart />
-      <MyBarChart></MyBarChart>
-      <MyAreaChart></MyAreaChart>
-      <MyPieChart></MyPieChart>
+      <MyBarChart />
+      <MyAreaChart />
+      <MyPieChart />
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Answer = () => {
     <div className="answer">
       <div className="answer1">
         <div class="card">
-          <h5 class="card-header text-center text-info">
+          <h5 class="card-header text-center bg-info text-light">
             What is Contex API ?
           </h5>
           <div class="card-body">
@@ -29,7 +29,7 @@ const Answer = () => {
       </div>
       <div className="answer2">
         <div class="card">
-          <h5 class="card-header text-center text-info">
+          <h5 class="card-header text-center bg-info text-light">
             What is Symantic tag ?
           </h5>
           <div class="card-body">
@@ -51,7 +51,7 @@ const Answer = () => {
         </div>
       </div>
       <div className="answer3">
-        <h5 class="card-header text-center mb-3 text-info bg-danger">
+        <h5 class="card-header text-center mb-3 bg-info text-light">
           Difference between Inline, Block and Inline-Block ?
         </h5>
         <table class="table">

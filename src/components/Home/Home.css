@@ -51,3 +51,33 @@
     font-style: italic;
 
 }
+
+@media screen and (max-width: 1100px) {
+    .home-container {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .home-container h2 {
+        font-size: 14px;
+    }
+
+    .details-container {
+        width: 100%;
+        margin-left: 0px;
+        padding: 20px;
+        order: 2;
+    }
+
+    .image-container {
+        width: 100%;
+        order: 1;
+    }
+
+    .review-list {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}

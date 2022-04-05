@@ -44,7 +44,7 @@ const data = [
 const MyPieChart = () => {
   return (
     <div className="pie-chart">
-      <h4>Month with sell</h4>
+      <h4 className="text-center">Month with sell</h4>
       <PieChart width={800} height={500}>
         <Pie
           dataKey="investment"
@@ -56,9 +56,8 @@ const MyPieChart = () => {
           outerRadius={80}
           fill="#8884d8"
           label
-        />
-        {/* <CartesianGrid stroke="#ccc" strokeDasharray="0" /> */}
-        <Tooltip></Tooltip>
+        />        
+        <Tooltip></Tooltip>        
       </PieChart>
     </div>
   );

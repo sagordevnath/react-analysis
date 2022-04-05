@@ -11,20 +11,28 @@
     height: 80px;
     z-index: 1030;
 }
+
 .link {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 20px;    
-    font-size: 10px; 
+    margin: 20px;
+    font-size: 10px;
 }
 
-.link:hover {    
+.link:hover {
     background-color: rgb(119, 91, 245);
-    
+
     border-radius: 5px;
     color: rgb(0, 255, 85);
     transition: 0.3s;
-    
-    
+
+
 }
 
+@media screen and (max-width: 1100px) {
+    .link {
+        font-size: 7px;
+        margin: 6px;
+
+    }
+}

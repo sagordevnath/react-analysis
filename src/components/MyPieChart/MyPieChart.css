@@ -1,7 +1,9 @@
 .pie-chart {
     border: 2px solid #ccc;
-        padding: 20px;
-        margin: 10px;
-        width: 73%;
-        height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 73%;
+    height: 400px;
+    margin-left: 0;
 }
