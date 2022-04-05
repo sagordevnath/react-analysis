@@ -13,13 +13,11 @@ const Home = () => {
         <div className="details-container lh-lg">
           <div className="title">
             <h2>
-              Your <span className="text-info">Next</span> Programming
-              Language..
+            A JavaScript library for building user interfaces
             </h2>
-            <h2>
-              Your <span className="text-success">Best</span> Programming
-              Language..{" "}
-            </h2>
+            <h4>
+              Trust yourself to choose what's right for you!!
+            </h4>
           </div>
           <p className="mt-4 mb-4">
             React is a free and open-source front-end JavaScript library for
