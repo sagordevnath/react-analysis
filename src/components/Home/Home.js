@@ -49,11 +49,9 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <Link to={"/reviews"}>
-        {/* <button className="view-all-btn">View All Reviews</button> */}
-        <button type="button" class="btn btn-outline-info view-all-btn">
-          View All Reviews
-        </button>
+      <Link className="view-all-btn" to={"/reviews"}>        
+        
+        <button type="button" class="btn btn-outline-info">View All Reviews</button>
       </Link>
     </>
   );

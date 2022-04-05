@@ -1,11 +1,14 @@
 import React from "react";
+import "./Answer.css";
 
 const Answer = () => {
   return (
     <div className="answer">
       <div className="answer1">
         <div class="card">
-          <h5 class="card-header">What is Contex API ?</h5>
+          <h5 class="card-header text-center text-info">
+            What is Contex API ?
+          </h5>
           <div class="card-body">
             <h5 class="card-title">Answer of this question :</h5>
             <p class="card-text">
@@ -26,7 +29,9 @@ const Answer = () => {
       </div>
       <div className="answer2">
         <div class="card">
-          <h5 class="card-header">What is Symantic tag ?</h5>
+          <h5 class="card-header text-center text-info">
+            What is Symantic tag ?
+          </h5>
           <div class="card-body">
             <h5 class="card-title">Answer of this question :</h5>
             <p class="card-text">
@@ -46,6 +51,9 @@ const Answer = () => {
         </div>
       </div>
       <div className="answer3">
+        <h5 class="card-header text-center mb-3 text-info bg-danger">
+          Difference between Inline, Block and Inline-Block ?
+        </h5>
         <table class="table">
           <thead>
             <tr className="text-center">

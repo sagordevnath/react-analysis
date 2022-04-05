@@ -2,18 +2,24 @@ import React from "react";
 import "./Review.css";
 
 const Review = ({ review }) => {
-  const { name, image } = review;
+  const { name, image, description, ratings } = review;
   return (
     <div className="card">
       <img src={image} className="card-img-top" alt="..."></img>
       <div className="card-body">
-        <h5 className="card-title text-center">{name}</h5>
+        <h5 className="card-title text-center my-3">{name}</h5>
         <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {description}
         </p>
-        <p>
-          Ratings: <i class="fa-solid fa-star"></i>
+        <p className="mt-5">
+           <div className="ratings">
+        Ratings: <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <span>({ratings})</span>
+            </div>
         </p>
       </div>
     </div>

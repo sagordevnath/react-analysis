@@ -1,4 +1,5 @@
 import React from "react";
+import "./MyPieChart.css";
 import { PieChart, Pie, Tooltip } from "recharts";
 
 const data = [
@@ -42,7 +43,7 @@ const data = [
 
 const MyPieChart = () => {
   return (
-    <div className="">
+    <div className="pie-chart">
       <h4>Month with sell</h4>
       <PieChart width={800} height={500}>
         <Pie
